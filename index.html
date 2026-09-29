@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>NASA Facility Weather</title>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <p class="info">NASA Facilities</p>
+
+        <h1>NASA Facility Weather</h1>
+        <p>
+          Explore NASA facilities and see the current weather at each location.
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <label for="searchInput">Search Facilities</label>
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search by Facility, center, city, or state..."
+        />
+      </section>
+
+      <section class="results-header">
+        <h2>Facilities</h2>
+        <p id="facilityCount">Loading facilities...</p>
+      </section>
+
+      <p id="statusMessage" class="status-message">
+        Loading NASA facilities...
+      </p>
+
+      <section id="facilityContainer" class="facility-grid"></section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
