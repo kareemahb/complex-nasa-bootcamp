@@ -16,12 +16,14 @@ Built for the **Complex NASA API** challenge:
 - **Fallback data.** If NASA's server blocks the browser request, the app loads a local copy of the dataset instead
 - **Responsive layout** that works on phone, tablet, and desktop
 
-## Built With
+## Tech Used
 
 - HTML5
 - CSS3 (custom properties, Grid, Flexbox)
 - JavaScript (ES6+ classes, Fetch API)
 - [Orbitron](https://fonts.google.com/specimen/Orbitron) and [Inter](https://fonts.google.com/specimen/Inter) from Google Fonts
+
+![alt text](image.png)
 
 ### APIs
 
